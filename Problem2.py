@@ -10,7 +10,7 @@ def fibonacci():
     second, first = 2, 1
     while True:
         second, first = second + first, second
-        yield nxt
+        yield second
 
 
 def evens(series):
